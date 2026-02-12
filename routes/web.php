@@ -6,21 +6,8 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
-
-Route::get('/about', function () {
-    return view('pages.about');
-});
-
-Route::get('/program', function () {
-    return view('pages.program');
-});
-
-Route::get('/galery', function () {
-    return view('pages.galeri');
-});
-
-Route::get('/contact', function () {
-    return view('pages.contact');
-});
-
-
+Route::get('/home', fn() => view('bizland.home'));
+Route::get('/profile', fn() => view('bizland.profile'));
+Route::get('/galeri', fn() => view('bizland.gallery'));
+Route::get('/team', fn() => view('bizland.team'));
+Route::get('/contact', fn() => view('bizland.contact'));
