@@ -211,6 +211,10 @@ h6 {
   line-height: 1;
 }
 
+.clients img {
+  max-height: 120px;
+}
+
 .header .logo img {
   max-height: 36px;
   margin-right: 8px;

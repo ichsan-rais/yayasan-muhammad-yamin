@@ -18,7 +18,7 @@
       <div class="container position-relative d-flex align-items-center justify-content-between">
         <a href="index.html" class="logo d-flex align-items-center">
           <!-- Uncomment the line below if you also wish to use an image logo -->
-          <img src="assets/img/logo.jpeg" alt=""> 
+          <img src="assets/img/logo.png" alt=""> 
           <h1 class="sitename">Yayasan Muhammad Yamin</h1>
         </a>
 

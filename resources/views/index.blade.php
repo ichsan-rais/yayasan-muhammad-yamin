@@ -31,7 +31,7 @@
 
           <div class="col-xl-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
             <div class="service-item position-relative">
-              <div class="icon"><i class="bi bi-activity icon"></i></div>
+              <div class="icon"><i class="bi bi-backpack2"></i></div>
               <h4><a href="" class="stretched-link">PAUD Muhammad Yamin</a></h4>
               <p>PAUD Yayasan kami hadir sebagai ruang belajar yang aman dan menyenangkan untuk membentuk anak yang cerdas, mandiri, dan berakhlak Islami sejak dini.</p>
             </div>
@@ -39,7 +39,7 @@
 
           <div class="col-xl-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
             <div class="service-item position-relative">
-              <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
+              <div class="icon"><i class="bi bi-house"></i></div>
               <h4><a href="" class="stretched-link">Madrasah Muhammad Yamin</a></h4>
               <p>Membentuk generasi yang fasih membaca Al-Qur’an, kuat dalam akidah, dan berakhlak mulia melalui pendidikan diniyah dan TPA yang terarah. </p>
             </div>
@@ -47,7 +47,7 @@
 
           <div class="col-xl-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
             <div class="service-item position-relative">
-              <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
+              <div class="icon"><i class="bi bi-moon-stars"></i></div>
               <h4><a href="" class="stretched-link">Masjid Miftahul Ulum</a></h4>
               <p>Masjid kami menjadi pusat ibadah, dakwah, dan pembinaan umat dalam memperkuat iman dan ukhuwah Islamiyah.</p>
             </div>
@@ -119,7 +119,7 @@ Yayasan ini hadir sebagai wadah pendidikan dan dakwah yang berorientasi pada mas
         <div class="row gy-4">
 
           <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-            <i class="bi bi-emoji-smile"></i>
+            <i class="bi bi-mortarboard"></i>
             <div class="stats-item">
               <span data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="1" class="purecounter"></span>
               <p>Jumlah Lulusan</p>
@@ -127,7 +127,7 @@ Yayasan ini hadir sebagai wadah pendidikan dan dakwah yang berorientasi pada mas
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-            <i class="bi bi-journal-richtext"></i>
+            <i class="bi bi-backpack2"></i>
             <div class="stats-item">
               <span data-purecounter-start="0" data-purecounter-end="19" data-purecounter-duration="1" class="purecounter"></span>
               <p>Jumlah siswa</p>
@@ -135,7 +135,7 @@ Yayasan ini hadir sebagai wadah pendidikan dan dakwah yang berorientasi pada mas
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-            <i class="bi bi-headset"></i>
+            <i class="bi bi-person"></i>
             <div class="stats-item">
               <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1" class="purecounter"></span>
               <p>Jumlah guru</p>
@@ -143,7 +143,7 @@ Yayasan ini hadir sebagai wadah pendidikan dan dakwah yang berorientasi pada mas
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-            <i class="bi bi-people"></i>
+            <i class="bi bi-building"></i>
             <div class="stats-item">
               <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
               <p>Total Sarana</p>
@@ -156,6 +156,41 @@ Yayasan ini hadir sebagai wadah pendidikan dan dakwah yang berorientasi pada mas
 
     </section><!-- /Stats Section -->
 
+        <!-- Clients Section -->
+    <section id="clients" class="clients section light-background">
+
+      <div class="container">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+  "loop": true,
+  "centeredSlides": true,
+  "speed": 600,
+  "slidesPerView": 3
+}
+
+          </script>
+<div class="row justify-content-center align-items-center text-center">
+
+  <div class="col-md-3 col-6 mb-4">
+    <img src="{{ asset('assets/img/logo.jpeg') }}" class="img-fluid" alt="">
+  </div>
+
+  <div class="col-md-3 col-6 mb-4">
+    <img src="{{ asset('assets/img/madrasah.jpeg') }}" class="img-fluid" alt="">
+  </div>
+
+  <div class="col-md-3 col-6 mb-4">
+    <img src="{{ asset('assets/img/paud.jpeg') }}" class="img-fluid" alt="">
+  </div>
+
+</div>
+        </div>
+
+      </div>
+
+    </section><!-- /Clients Section -->
     <!-- Portfolio Section -->
     <section id="portfolio" class="portfolio section">
 

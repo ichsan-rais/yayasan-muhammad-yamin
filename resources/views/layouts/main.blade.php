@@ -7,7 +7,7 @@
   <title>@yield('title', 'Yayasan Muhammad Yamin')</title>
 
     <!-- Favicons -->
-  <link href="{{ asset('assets/img/favicon.png') }}" rel="icon">
+  <link href="{{ asset('assets/img/logo.png') }}" rel="icon">
   <link href="{{ asset('assets/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
 
     <!-- Main CSS File -->
